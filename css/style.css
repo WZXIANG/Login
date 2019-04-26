@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+}
+.wrap{
+	width: 100%;
+	min-width: 1300px;
+	height: 520px;
+	overflow: hidden;
+	background: url(../img/dlbg.jpg) center;	
+}
+.login{	
+	/*margin: 100px 130px  0 auto;*/
+	width: 340px;
+	height: 320px;
+	background: whitesmoke;
+	/*position: absolute;
+	top: 100px;
+	right: 200px;*/	
+	margin: 100px 200px;
+	float: right;		
+}
+.form-wrap{
+	width: 100%;
+	height: 180px;	
+	border-bottom: 1px dotted #000;
+	text-align: center;
+	padding-top: 40px;
+}
+.login-link{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+.text{
+	width: 255px;
+	height: 40px;
+	margin-bottom: 20px !important;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-repeat: no-repeat;
+	background-position-y: -1px;
+	text-indent: 50px;
+}
+.user{
+	background-image: url(../img/zhanghao.jpg);
+}
+.pwd{
+	background-image: url(../img/mima.jpg);
+	
+}
+.sub{
+	width: 220px;
+	height: 44px;
+	background: url(../img/but.jpg);
+	border-width: 0;
+}
+
+.login-link p img{
+	position: relative;
+	top: 10px;
+}
